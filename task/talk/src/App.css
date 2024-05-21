@@ -1,0 +1,24 @@
+.chat-container {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin: 5px;
+}
+
+.message-bubble {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.left-bubble {
+    text-align: left;
+    background: #e0e0e0;
+}
+
+.right-bubble {
+    text-align: right;
+    background: #add8e6;
+}
